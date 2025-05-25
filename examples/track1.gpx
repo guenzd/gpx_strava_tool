@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="test" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Track 1</name>
+    <trkseg>
+      <trkpt lat="50.00" lon="8.60"><time>2024-05-01T12:00:00Z</time></trkpt>
+      <trkpt lat="50.01" lon="8.61"><time>2024-05-01T12:05:00Z</time></trkpt>
+      <trkpt lat="50.02" lon="8.62"><time>2024-05-01T12:10:00Z</time></trkpt>
+      <trkpt lat="50.03" lon="8.63"><time>2024-05-01T12:15:00Z</time></trkpt>
+      <trkpt lat="50.04" lon="8.64"><time>2024-05-01T12:20:00Z</time></trkpt>
+      <trkpt lat="50.05" lon="8.65"><time>2024-05-01T12:25:00Z</time></trkpt>
+      <trkpt lat="50.06" lon="8.66"><time>2024-05-01T12:30:00Z</time></trkpt>
+      <trkpt lat="50.07" lon="8.67"><time>2024-05-01T12:35:00Z</time></trkpt>
+      <trkpt lat="50.08" lon="8.68"><time>2024-05-01T12:40:00Z</time></trkpt>
+      <trkpt lat="50.09" lon="8.69"><time>2024-05-01T12:45:00Z</time></trkpt>
+    </trkseg>
+  </trk>
+</gpx>
