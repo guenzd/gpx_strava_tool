@@ -68,10 +68,36 @@ Merges two GPX files into one continuous track. Useful for recovering rides wher
 ./stopped_too_early.sh main_recording.gpx additional_data.gpx merged.gpx
 ```
 
+## 🔄 FIT to GPX Converter
+
+Converts Garmin FIT files to GPX format while preserving all important data.
+
+### Features
+
+- Converts FIT files from Garmin, Wahoo, and other devices
+- Preserves all important data:
+  - GPS coordinates with high precision
+  - Elevation data
+  - Heart rate, cadence, and temperature
+  - Power meter readings
+- Automatically detects activity type
+- Creates standards-compliant GPX 1.1 files
+
+### Usage
+
+```bash
+# Using the Python script directly
+python3 convert_fit.py input.fit output.gpx
+
+# Or use the convenience shell script (automatically installs fitparse if needed)
+./convert_fit.sh input.fit output.gpx
+```
+
 ## ⚙️ Requirements
 
 - Python 3.7 or newer
-- No third-party dependencies (uses standard `xml.etree.ElementTree`)
+- Base functionality: No dependencies (uses standard `xml.etree.ElementTree`)
+- FIT conversion: `fitparse` library (auto-installed by conversion script)
 - Unix-like environment (for shell scripts)
 
 ## 📝 File Format Support
